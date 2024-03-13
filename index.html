@@ -1,104 +1,125 @@
-<!DOCTYPE HTML><!-- Isso é um DTD de HTML -->
+<!DOCTYPE html>
+<!-- Isso é um DTD de HTML5 -->
 <!--
-Isso é um comentária 
-The <!DOCTYPE html> document type definition, declaração define que este documento é m documento HTML5.
-
-<!-- O HTML é a tag raiz da estrutura html, todo conteúdo deve 
-ser criado dentro dele.
+Isso é um comentário
+A <!DOCTYPE html> document type definition, declaração define que este documento é um documento HTML5.
 -->
 
-
+<!-- O HTML é a tag raiz da estrutura html, todo o conteúdo deve ser criado dentro dele.
 -->
 <html>
-	<!-- The <head> element contains meta information about the HTML page
+  <!-- 
+		<head> Elemento contém meta informações sobre a página HTML
 	-->
-	<head>
-		<meta charset="UTF-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>EXEMPLO </title>		  
-	</head>
-	<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXEMPLO</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="cabecalho">
+        <h1>Minha Página</h1>
+        <nav class="menu">
+          <!-- ul = unordered list e dentro dela somente podemos adicionar elementos li = list item.-->
+          <ul>
+            <li><a href="./paginas/help.html">Help</a></li>
+            <li><a href="./paginas/about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#meu-texto">TEXTO</a></li>
+          </ul>
+        </nav>
+      </header>
 
-		<div class="container">
-			
-			<header class="cabeçalho">
-				<h1>Minha Página</h1>
-				<nav class="menu">
-					<!-- ul = unordered list e dentro dela somente podemos adicionar elementos li = list intem.-->>
-					<ul>	
-						<li><a href="./paginas/help.html">Home</a></li>
-						<li> <a href="./paginas/about.html">About</a></li>
-						<li><a href="./paginas/Contatct.html">Contact</a></li>
-					</ul>
-				</nav>
-			</header>
-			<hr />
+      <hr />
 
-			<section class="conteúdo">
-				<div>
-					<h2>HELP</h2>
-					<p> help - Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ipsum, maxime voluptas obcaecati, blanditiis sint ut excepturi autem assumenda rem impedit architecto porro illum nesciunt neque voluptatum beatae possimus doloremque aspernatur quae. Doloremque maiores nisi voluptate tenetur dignissimos consequuntur, placeat sed amet aliquam animi! Deserunt veritatis obcaecati nihil alias reiciendis, laborum commodi mollitia suscipit, earum reprehenderit vitae. Iure, dicta consequatur quo beatae at harum quaerat assumenda adipisci aperiam vitae, eius, ipsa repellendus! Vero quae rem aspernatur sapiente amet consequatur odit, quibusdam dolor deserunt fugit tempore libero inventore pariatur labore, laboriosam at. Quisquam ducimus enim deleniti nesciunt ut perspiciatis repellat consequatur.
-					</p>
-					<a href="./paginas/help.html">Mais...</a>
-				</div>
+      <section class="conteudo">
+        <div>
+          <h2>HELP</h2>
+          <p>
+            Help - Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+            error cumque quas dolorem quaerat vero! Quaerat magnam pariatur, aut
+            eius perspiciatis aperiam delectus, molestias beatae accusantium
+            molestiae ratione ipsum earum necessitatibus cupiditate fugit autem
+            libero enim tempora. Voluptatem vero aliquid saepe soluta
+            perferendis facilis assumenda, eligendi dolor maxime quae nobis esse
+            explicabo corporis obcaecati quisquam rem accusantium ex fuga itaque
+            neque optio tempora necessitatibus. Mollitia modi sed eum veritatis
+            id rem commodi accusantium soluta repudiandae, dolorum,
+            necessitatibus laudantium molestiae quae itaque nesciunt quidem
+            nobis ducimus possimus harum quisquam! Perferendis nisi corrupti
+            quas nam cumque minima. Similique commodi molestias voluptate.
+            Magnam.
+          </p>
+          <a href="./paginas/help.html">Mais...</a>
+        </div>
 
-				</div>
-				<h2>ABOUT</h2>
-				<p>
-					ABOUT - Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus eius quas ullam, possimus adipisci qui quam maxime nobis vero deserunt ratione tempora incidunt corrupti quae maiores voluptas aliquid reiciendis cum illo accusamus doloremque perferendis minus! Facere inventore necessitatibus beatae quis repellendus nam iste illo maiores officiis saepe vero vitae aspernatur dolorem nesciunt numquam architecto soluta asperiores sint quas, reprehenderit excepturi, sequi nostrum magni possimus! Aliquam enim repellendus delectus itaque similique voluptate nobis dolor dolore rem laboriosam esse, officia ullam! Suscipit quas iure maiores ea fugiat beatae nihil delectus, saepe explicabo. Saepe aperiam aliquid quas ipsam minima at quibusdam! Quibusdam.
-				</p>
-				<a href="./paginas/about.html">Mais...</a>
-				<div>
+        <div>
+          <h2>ABOUT</h2>
+          <p>
+            About - Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Pariatur, veniam optio. Dolor reprehenderit culpa harum repellat nam
+            aliquid aliquam laudantium. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Aspernatur vero animi quas possimus illo nesciunt
+            ut minima totam suscipit ipsa.
+          </p>
+          <a href="./paginas/about.html">Mais...</a>
+        </div>
 
-				<div id="contact">
-					<h2>CONTACT</h2>
-					<form>
-						<fieldset>
-						  <legend>Customer Data</legend>
-						  <div>
-							<label for="idNm">Nome:</label>
-							<input
-							type="text" 
-							name="txtNm"
-							id="idNm" 
-							placeholder="Digite seu Nome"
-							/>
-						  </div>
-						</fieldset>
-					  </form>
-				<div>
-					<div>
-						<label for="idEmail">Email:</label>
-						<input
-						  type="email"
-						  name="txtEmail"
-						  id="idEmail"
-						  placeholder="Digite seu email"
-						/>
-					  </div>
-					</fieldset>
-				  </form>
-				</div>
-				<div>
-					<button type="button">Send</button>
-				</div>
-			</section>
+        <div id="contact">
+          <h2>CONTACT</h2>
+          <form>
+            <fieldset>
+              <legend>Customer Data</legend>
+              <div>
+                <label for="idNm">Nome:</label>
+                <input
+                  type="text"
+                  name="txtNm"
+                  id="idNm"
+                  placeholder="Digite seu nome"
+                />
+              </div>
+              <div>
+                <label for="idEmail">Email:</label>
+                <input
+                  type="email"
+                  name="txtEmail"
+                  id="idEmail"
+                  placeholder="Digite seu email"
+                />
+              </div>
 
-			<footer class="rodape">
-				<nav>
-					<ul>
-						<li> <a href="https://www.fiap.com.br/" target="_blank">Fiap </a> 
-					</li>
-						<li><a href="https://www.google.com.br/" target="_blank">GOOGLE </a> </a>
-					</li>
-						<li><a href="https://github.com/" target="_blank">Github</a> </a></li>
-					</ul>
-					
-				</nav>
-				<p>
-					Todos os direitos reservados <small>2024</small>
-				</p>
-			</footer>
-		</div>
-	<body>	
+              <div>
+                <button type="button">Send</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
+      <footer class="rodape">
+        <nav>
+          <ul>
+            <li>
+              <a href="https://www2.fiap.com.br/" target="_blank">
+                <img src="" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.google.com.br/" target="_blank">
+                <img src="./img/social.png" alt="Logo da Google" width="2%" />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/" target="_blank">
+                <img src="./img/github.png" alt="Logo da Git Hub" width="2%" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <p>Todos os direitos reservados <small>2024 - &copy;</small></p>
+      </footer>
+    </div>
+  </body>
 </html>
