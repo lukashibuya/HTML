@@ -1,0 +1,57 @@
+/* Este é um comentário em CSS */
+/*CSS quer dizer Cascade Style Sheet ou Folha de estilos em cascata.*/
+
+/*Aqui estamos definindo o estilo para o corpo da página*/
+
+/* Explicando SELETORES */
+/* O seletor é a parte do código que indica qual elemento do HTML será estilizado. */
+/*Exemplo: body {color: red;} - Neste caso, o seletor é o "body".*/
+
+/* Explicando PROPRIEDADES */
+/* A propriedade é a parte do código que indica qual característica do elemento será estilizada. */
+/*Exemplo: body {color: red;} - Neste caso, a propriedade é o "color".*/
+
+/* Explicando VALORES */
+/* O valor é a parte do código que indica qual será o valor da propriedade. */
+/*Exemplo: body {color: red;} - Neste caso, o valor é o "red".*/
+
+/* TIPOS DE SELETORES */
+/* Existem vários tipos de seletores em CSS. */
+/* Os principais são: */
+/* - Seletor de tipo */
+/* - Seletor de classe */
+/* - Seletor de ID */
+/* - Seletor de atributo */
+/* - Seletor de pseudo-classe */
+/* - Seletor de pseudo-elemento */
+
+/* Exemplo de SELETORES DE TIPO */
+/* body {color: red;} - Este seletor estiliza o corpo da página. */
+/* p {color: blue;} - Este seletor estiliza todos os parágrafos. */
+/* h1 {color: green;} - Este seletor estiliza todos os títulos h1. */
+
+/* Exemplo de SELETORES DE CLASSE */
+/* .nome-da-classe {color: red;} - Este seletor estiliza todos os elementos que possuem a classe "nome-da-classe". */
+
+/* Exemplo de SELETORES DE ID */
+/* #nome-do-id {color: red;} - Este seletor estiliza o elemento que possui o ID "nome-do-id". */
+
+/* Exemplo de SELETORES DE ATRIBUTO */
+/* [nome-do-atributo] {color: red;} - Este seletor estiliza todos os elementos que possuem o atributo "nome-do-atributo". */
+/* a[href="http://www.google.com"] {color: red;} - Este seletor estiliza todos os links que possuem o atributo "href" com o valor "http://www.google.com". */
+
+/* input[type="text"] {color: red;} - Este seletor estiliza todos os inputs que possuem o atributo "type" com o valor "text". */
+
+/* Exemplo de reset de estilos */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Exemplo de reset de estilos */
+/* 
+#container{
+    background-color: #a1a1a1;
+    width: 75%;
+    margin: 0 auto;
+} */ 
