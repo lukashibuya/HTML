@@ -1,22 +1,6 @@
-#container{
-    background-color: rgb#00be9f;
-}
-
 .cabecalho{
-    background-color: rgb#ff0000;
-    color: #ffffff;
-    padding: 10px;
+    background-color: blue;
+    color: white;
+    padding: 20px;
     text-align: center;
-    background-image: url("../img/img-01-banner-1289x568.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-       
-}
-
-.menu ul li {
-    display: inline;
-    margin-right: 10px;
-    background-color: #ccc;
-
 }
