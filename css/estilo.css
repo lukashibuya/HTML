@@ -15,3 +15,6 @@ nav ul li a{
     text-decoration: none;
     font-weight: bold;
 }
+#container{
+    padding: 20px;
+}
